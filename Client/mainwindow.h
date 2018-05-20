@@ -32,7 +32,7 @@ public:
 
     QTimer *timer_read_joy;
     SDL_Joystick *joy;
-    QTcpSocket *ssocket;   //taref tabeh dakhele class
+    QTcpSocket *ssocket;   // Function of inside class
     QTimer *timerr_send_client;
     QElapsedTimer *rresive_server_timer;
     QTimer *opcv_imshow_timer;
@@ -47,8 +47,8 @@ private:
 public slots:
     void joystick();
     void joy_raed();
-    void fnc_Connect();  // tabea etesal
-    void fnc_Send();   //daryaft dadeh va tabea ersale dade
+    void fnc_Connect();  // Sending function
+    void fnc_Send();     // Ricive data and function of Sending function 
     void readdser();
     void conct_stablishid();
     void func_set();
